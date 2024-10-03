@@ -6,40 +6,60 @@ a{
 ul{
 	list-style-type: none;
 }
-img{max-width: 100%;
+img{
+	max-width: 100%;
 }
 
 
+
 .main_image{
-    width: 1640px;
-    height:613px;
+    max-width: 100%;
     object-fit: cover;
     margin:207px 140px 138px 140px;
 }
 
 
 .header{
-	margin:73px 245.5px 107px 140px;
-	line-height: 27px;
+	margin-top: 90px;
+	margin-left: 20px;
+	line-height: 40px;
 	letter-spacing: 0.2px;
+	font-family: "ArchyEDT-Thin", sans-serif;
+	color:#707070
+	
+}
+
+.archy{
+	font-family: "ArchyEDT-Thin", sans-serif;
 }
 
 nav a{
 	font-size: 20px;
 	letter-spacing: 0.2px;
-	line-height: 27px;
+	margin: 25px;
 	color: #707070;
 }
+
+nav, nav li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
 
 .article_png{
 	width:483px;
 	height:282px;
 	object-fit: cover;
+	margin-top: 70px;
+	margin-right: 10px;
+	
 }
 
 
 section article{
-	margin:123px 140px 107px 140px;
+	margin:70px 95px 20px 140px;
 	width: 446px;
 	height: 563px;
 	color: #707070;
@@ -54,15 +74,27 @@ section h2{
 	width: 437px;
 	height: 53px;
 }
-
-h4{
-	background-color:#2E2E2E;
+section p{
+	margin-top: 33px;
+	font-family: "ArchyEDT-Thin", sans-serif;
+	
 }
+section h5{
+	size: 24px;
+	color:#707070;
+	text-align:right;
+	margin-top: 73px;
+	margin-right: 13px;
+	margin-bottom: 35px;
+	font-family: "ArchyEDT-Thin", sans-serif;
+}
+
+
 
 footer{
 		background-color:#2E2E2E;
-		line-height: 27px;
-		width: 1920px;
+		width: 100%;
+		margin-top: 70px;
 }
 
 footer h4{
@@ -76,33 +108,47 @@ footer h4{
 footer ul{
 	font-size: 13px;
 	letter-spacing: 0.13px;
-	line-height: 17px;
 	color:#f2f2f2;
 	margin-left:140px;
-
 }
 
-footer h4{
-	margin-top: 67px ;
-	margin-bottom: 96px;
+
+footer div{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 70px;
+	margin-top: 67px;
+	font-family: "ArchyEDT-Thin", sans-serif;
+
 }
 
 .logo{
 	width: 122px;
 	height: 122px;
 	object-fit: cover;
-	margin:56.12px 245.5px 107px 140px;
-
+	margin-left: 140.7px;
+	margin-top: 52px;
+}
+.footlogo{
+	margin-bottom:54px;
 }
 
 .png{
 	width: 43.95px;
 	height: 43.95px;
 	margin-top:80px;
-	margin-bottom: 80px;
 	margin-left:140px;
     line-height: 34.1px;
 }
 
+.container{
+	max-width: 100%;
+	width: 100%;
+	margin:0 auto;
+}
 
+article{
 
+	box-shadow: 0px 3px 6px #00000029;
+	display: inline-block;
+}
